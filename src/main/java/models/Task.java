@@ -83,6 +83,14 @@ public class Task {
         this.startTime = startTime;
     }
 
+    public Collaborator getCurrentWorker() {
+        return currentWorker;
+    }
+
+    public void setCurrentWorker(Collaborator currentWorker) {
+        this.currentWorker = currentWorker;
+    }
+
     @Override
     public String toString() {
         return "Task{" +
