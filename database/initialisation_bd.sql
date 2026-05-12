@@ -1,0 +1,22 @@
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Ada', 'Lovelace');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Alan', 'Turing');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Grace', 'Hopper');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Edsger', 'Dijkstra');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Donald', 'Knuth');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Dennis', 'Ritchie');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Ken', 'Thompson');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Linus', 'Torvalds');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Bjarne', 'Stroustrup');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('James', 'Gosling');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Guido', 'van Rossum');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Tim', 'Berners-Lee');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Barbara', 'Liskov');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Margaret', 'Hamilton');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Frances', 'Allen');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('John', 'McCarthy');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Marvin', 'Minsky');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Claude', 'Shannon');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('John', 'von Neumann');
+INSERT INTO Collaborator (firstName, lastName) VALUES ('Katherine', 'Johnson');
+
+COMMIT;
