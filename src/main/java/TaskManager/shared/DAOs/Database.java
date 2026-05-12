@@ -1,4 +1,4 @@
-package DAOs;
+package TaskManager.shared.DAOs;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

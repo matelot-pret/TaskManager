@@ -1,4 +1,4 @@
-package models;
+package TaskManager.shared.models;
 
 public enum TaskState {
     UNOPENED(1),

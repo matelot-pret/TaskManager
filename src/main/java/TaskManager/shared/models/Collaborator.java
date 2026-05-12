@@ -1,4 +1,4 @@
-package models;
+package TaskManager.shared.models;
 
 import java.util.Objects;
 

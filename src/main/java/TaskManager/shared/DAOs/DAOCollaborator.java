@@ -1,5 +1,7 @@
-package DAOs;
+package TaskManager.shared.DAOs;
 
+import TaskManager.shared.exceptions.AlreadyExistsException;
+import TaskManager.shared.models.Collaborator;
 import models.*;
 import exceptions.*;
 
