@@ -10,7 +10,7 @@ public class Task {
     private String description;
     private LocalDateTime echeance;
     private TaskState state;
-    private Map<String,Long> collaboratorElapsedTime;
+    private Map<Collaborator,Long> collaboratorElapsedTime;
     private Collaborator creator;
     private LocalDateTime startTime;
     private Collaborator currentWorker;
@@ -59,11 +59,11 @@ public class Task {
         this.state = state;
     }
 
-    public Map<String, Long> getCollaboratorElapsedTime() {
+    public Map<Collaborator, Long> getCollaboratorElapsedTime() {
         return collaboratorElapsedTime;
     }
 
-    public void setCollaboratorElapsedTime(Map<String, Long> collaboratorElapsedTime) {
+    public void setCollaboratorElapsedTime(Map<Collaborator, Long> collaboratorElapsedTime) {
         this.collaboratorElapsedTime = collaboratorElapsedTime;
     }
 

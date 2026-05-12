@@ -13,7 +13,6 @@ public class Database {
     private static String PASSWORD = "XXXX";
     
     private Database(){
-
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             connexion = DriverManager.getConnection(URL, USER, PASSWORD);
@@ -27,7 +26,7 @@ public class Database {
     }
 
     public static Connection getConnection() throws SQLException{
-        if(connexion == null){
+        if(connexion == null || connexion.isClosed()){
             new Database();
         }   
         return connexion;

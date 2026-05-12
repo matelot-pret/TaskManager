@@ -7,9 +7,14 @@ public class Collaborator {
     private String firstName;
     private String LastName;
 
-    public Collaborator(String firstName, String lastName){
+    public Collaborator(int id, String firstName, String lastName){
+        this.id = id;
         this.firstName = firstName;
         this.LastName = lastName;
+    }
+
+    public Collaborator(String firstName, String lastName){
+        this(0, firstName, lastName);
     }
 
     public int getId() {

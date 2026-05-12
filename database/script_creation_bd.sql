@@ -1,3 +1,8 @@
+DROP TABLE ElapsedTimeOnTask;
+DROP TABLE Task;
+DROP TABLE Collaborator;
+DROP TABLE TaskState;
+
 CREATE TABLE TaskState(
     id NUMBER(1) PRIMARY KEY,
     designation VARCHAR(50) NOT NULL UNIQUE
