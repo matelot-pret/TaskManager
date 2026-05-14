@@ -4,17 +4,19 @@ import java.util.Objects;
 
 public class Collaborator {
     private int id;
+    private String login;
     private String firstName;
     private String LastName;
 
-    public Collaborator(int id, String firstName, String lastName){
+    public Collaborator(int id, String login, String firstName, String lastName){
         this.id = id;
+        this.login = login;
         this.firstName = firstName;
         this.LastName = lastName;
     }
 
-    public Collaborator(String firstName, String lastName){
-        this(0, firstName, lastName);
+    public Collaborator(String login, String firstName, String lastName){
+        this(0, login ,firstName, lastName);
     }
 
     public int getId() {
@@ -23,6 +25,14 @@ public class Collaborator {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getFirstName() {

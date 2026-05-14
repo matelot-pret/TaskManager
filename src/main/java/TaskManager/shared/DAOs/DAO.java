@@ -1,6 +1,5 @@
 package TaskManager.shared.DAOs;
 import TaskManager.shared.exceptions.AlreadyExistsException;
-import exceptions.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
