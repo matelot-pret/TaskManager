@@ -38,3 +38,5 @@ build/
 ### Mac OS ###
 .DS_Store
 /lib
+# Configuration IntelliJ propre à chaque poste
+.idea/
